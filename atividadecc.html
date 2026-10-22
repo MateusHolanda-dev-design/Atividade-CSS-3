@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana de Tecnologia e Cultura - IFCE Campus Maranguape</title>
+    <style>
+    body { font-family: Arial, sans-serif; background-color: rgb(240, 242, 245); margin: 0; padding: 0; color: #333; }
+        #cabecalho { background-color: #025329; color: white; padding: 30px; margin-bottom: 20px; text-align: center; }
+        #cabecalho h1 { font-size: 36px; letter-spacing: 2px; margin: 0 0 10px 0; }
+        #menu-navegacao { background-color: #111827; padding: 15px; text-align: center; }
+        #menu-navegacao a { color: white; font-weight: bold; font-size: 16px; text-decoration: none; margin: 0 15px; }
+        #menu-navegacao a:hover { color: #4ade80; }
+        #rodape { background-color: #0f172a; color: white; padding: 20px; text-align: center; margin-top: 30px; }
+        .secao-principal { background-color: white; padding: 20px; margin: 20px; border: 2px solid #cbd5e1; }
+        .tabela-programacao th, .tabela-programacao td { border: 1px solid #94a3b8; padding: 12px; }
+
+        .caixa-atividade { 
+            width: 300px;
+            height: 180px;
+            padding: 20px;
+            margin: 15px;
+            border-style: solid;
+            box-sizing: border-box;
+        }
+        .caixa-atividade h3 { font-size: 18px; font-weight: bold; margin-top: 0; }
+        .caixa-1 { background-color: #e0f2fe; border-color: #0369a1; border-width: 3px; border-radius: 0px; }
+        .caixa-2 { background-color: rgb(220, 245, 225); border-color: #15803d; border-width: 3px; border-radius: 15px; }
+        .caixa-3 { background-color: #ffe4e6; border-color: #7e22ce; border-width: 5px; border-radius: 30px; border-top-left-radius: 0px; }
+    </style>
+</head>
+<body>
+
+    <header id="cabecalho">
+        <h1>Semana de Tecnologia e Cultura</h1>
+        <p>Inovação, ciência, arte e conhecimento, tudo junto no IFCE Campus Maranguape.</p>
+    </header>
+
+    <nav id="menu-navegacao">
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#programacao">Programação</a></li>
+            <li><a href="#atividades">Atividades</a></li>
+            <li><a href="#inscricoes">Inscrições</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="sobre" class="secao-principal">
+            <h2>Sobre o Evento</h2>
+            <p class="texto-justificado">
+                A Semana de Tecnologia e Cultura do IFCE Campus Maranguape é um evento anual criado para
+                integrar estudantes, docentes e a comunidade local.
+            </p>
+            <p class="texto-justificado">
+                Durante o evento, os participantes têm a oportunidade de trocar experiências, desenvolver
+                novas habilidades e conhecer projetos acadêmicos de destaque.
+            </p>
+            <img id="imagem-evento"
+                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPkJCc3gHye3rtBRA_wyvR64l02-TPrFbz0honRlJ0OTW5mliDS8eDOWbQ&s=10' width='400' height='250'%3E%3Crect width='400' height='250' fill='%23025329'/%3E%3Ctext x='200' y='125' font-family='Arial' font-size='24' fill='white' text-anchor='middle'%3ESemana de Tecnologia%3C/text%3E%3Ctext x='200' y='158' font-family='Arial' font-size='24' fill='white' text-anchor='middle'%3Ee Cultura%3C/text%3E%3C/svg%3E"
+                 alt="Imagem ilustrativa da Semana de Tecnologia e Cultura">
+        </section>
+
+        <section id="programacao" class="secao-principal">
+            <h2>Programação</h2>
+            <table class="tabela-programacao">
+                <thead>
+                    <tr>
+                        <th>Horário</th>
+                        <th>Atividade</th>
+                        <th>Local</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>07:30 - 09:30</td>
+                        <td>Abertura e Palestra</td>
+                        <td>Auditório</td>
+                    </tr>
+                    <tr>
+                        <td>09:50 - 11:30</td>
+                        <td>Oficina de HTML</td>
+                        <td>Laboratório de Informática</td>
+                    </tr>
+                    <tr>
+                        <td>13:00 - 15:00</td>
+                        <td>Apresentação de Robótica</td>
+                        <td>Sala 101</td>
+                    </tr>
+                    <tr>
+                        <td>15:10 - 17:00</td>
+                        <td>Apresentação Musical (GRACHA)</td>
+                        <td>Auditório</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="atividades" class="secao-principal">
+            <h2>Atividades</h2>
+
+            <div class="caixa-atividade caixa-1">
+                <h3>Oficina de HTML</h3>
+                <p>Aprenda a fazer a estrutura de uma página web.</p>
+                <a href="#programacao">Mais informações</a>
+            </div>
+
+            <div class="caixa-atividade caixa-2">
+                <h3>Apresentação de Robótica</h3>
+                <p>Projetos e protótipos dos alunos do IFCE.</p>
+                <a href="#programacao">Mais informações</a>
+            </div>
+
+            <div class="caixa-atividade caixa-3">
+                <h3>Apresentação Musical do GRACHA</h3>
+                <p>Apresentações culturais com os estudantes.</p>
+                <a href="#programacao">Mais informações</a>
+            </div>
+        </section>
+
+        <section id="inscricoes" class="secao-principal">
+            <h2>Inscrições</h2>
+            <p>
+                As inscrições para oficinas e palestras são totalmente gratuitas e abertas a toda a
+                comunidade acadêmica e externa. Garanta sua vaga com antecedência, pois as vagas nos
+                laboratórios são limitadas.
+            </p>
+            <p>
+                Para realizar sua inscrição oficial e emitir seu certificado de participação, visite o
+                portal oficial da instituição:
+                <a href="https://ifce.edu.br" target="_blank">Acesse o portal do IFCE</a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer id="rodape">
+        <p>Instituto Federal do Ceará (IFCE) - Campus Maranguape</strong></p>
+        <p>Página desenvolvida por: Mateus Holanda Matos</p>
+    </footer>
+
+</body>
+</html>
